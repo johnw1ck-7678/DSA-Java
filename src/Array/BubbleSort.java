@@ -1,6 +1,9 @@
 import java.util.Arrays;
 
 //Time Complexity = O(N^2)
+/*Bubble Sort is a simple comparison-based sorting algorithm. 
+It repeatedly steps through the list, compares adjacent elements, 
+and swaps them if they are in the wrong order. */
 
 public class BubbleSort {
     public static void main(String[] args) {
