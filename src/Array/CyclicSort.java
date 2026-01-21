@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class CyclicSort {
     //for only given number are in range (1,N)
     public static void main(String[] args) {
-        int[] A={4,3,2,7,8,2,3,1};
+        int[] A={5,4,2,1,3};
         CycleSort(A);
        
     }
