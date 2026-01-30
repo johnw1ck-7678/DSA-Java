@@ -2,7 +2,7 @@ package BitManipulation;
 
 public class ithBit {
     public static void main(String[] args) {
-        int a=4;
+        
         System.out.println(getBit(4,7));
     }
     public static int getBit(int n,int target){
