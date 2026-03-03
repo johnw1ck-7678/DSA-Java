@@ -13,8 +13,8 @@ public class Subset {
             return;
         }
         char ch=u.charAt(0);
-        subset(p+ch, u.substring(1));
         subset(p,u.substring(1));
+        subset(p+ch, u.substring(1));
         
     }
 }
