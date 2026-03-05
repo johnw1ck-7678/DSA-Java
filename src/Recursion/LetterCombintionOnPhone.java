@@ -1,5 +1,18 @@
 package Recursion;
 import java.util.*;
+
+//Note : Here Mobile keypad used has mapping as follows
+
+// 1-abc
+// 2-def
+// 3-ghi
+// 4-jkl
+// 5-mno
+// 6-pqr
+// 7-stu
+// 8-vwx
+// 9-yz
+
 public class LetterCombintionOnPhone {
     public static void main(String[] args) {
         System.out.println(combination("", "19"));
