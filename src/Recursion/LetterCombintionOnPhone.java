@@ -1,7 +1,7 @@
 package Recursion;
 import java.util.*;
 
-//Note : Here Mobile keypad used has mapping as follows
+//Note : Here Mobile keypad used has mapping as follows.
 
 // 1-abc
 // 2-def
