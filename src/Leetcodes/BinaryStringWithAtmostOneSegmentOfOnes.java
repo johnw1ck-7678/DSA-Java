@@ -1,5 +1,7 @@
 package Leetcodes;
 
+//https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/?envType=daily-question&envId=2026-03-06
+
 public class BinaryStringWithAtmostOneSegmentOfOnes {
 
     public static void main(String[] args) {
