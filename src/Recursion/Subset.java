@@ -1,6 +1,5 @@
 package Recursion;
 
-import java.util.Arrays;
 
 public class Subset {
     public static void main(String[] args) {
