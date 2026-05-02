@@ -4,8 +4,8 @@ package Leetcodes;
 
 public class IndexOfFirstOccurenceOfString {
     public static void main(String[] args) {
-        String haystack = "prafull";
-        String needle = "ik";
+        String haystack = "sadbutsad";
+        String needle = "sad";
         System.out.println(strstr(haystack,needle));
     }
     public static int strstr(String haystack,String needle){
