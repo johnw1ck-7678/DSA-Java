@@ -1,0 +1,19 @@
+import java.util.Arrays;
+//https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/
+
+public class HighandLowofK {
+    public static void main(String[] args) {
+        int[] A={9,4,1,7};
+        System.out.println(minimumDifference(A,2));
+    }
+    public static int minimumDifference(int[] nums, int k) {
+    
+        Arrays.sort(nums);
+        int ans = Integer.MAX_VALUE;
+        for (int i = 0; i + k - 1 < nums.length; ++i) {
+            ans = Math.min(ans, nums[i + k - 1] - nums[i]);
+        }
+        return ans;
+        
+    }
+}
