@@ -2,15 +2,18 @@ import java.util.*;
 public class Stack_using_Queues {
     
     //using stacks and its method to Implement a Queue
+    
     static Queue<Integer> q1; //static references 
     static Queue<Integer> q2;
     public static void main(String[] args) {
          
         q1=new LinkedList<>();
         q2=new LinkedList<>();
+
         push(5);
-        push(6);
+        push(6); //OUR STACK
         push(7);
+
         System.out.println(pop());
 
     }
