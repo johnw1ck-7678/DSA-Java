@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+//https://leetcode.com/problems/rotate-image/description/?envType=daily-question&envId=2026-05-04
+
 public class RotateImage {
     public static void main(String[] args) {
         int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
@@ -24,6 +26,6 @@ public class RotateImage {
                 matrix[i][n-1-j]=temp;
             }
         }
-        System.out.print(Arrays.deepToString(matrix));
+        System.out.print(Arrays.deepToString(matrix)); //remove for leetcode
     }
 }
