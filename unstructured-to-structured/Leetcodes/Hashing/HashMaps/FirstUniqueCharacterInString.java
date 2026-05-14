@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class FirstUniqueCharacterInString {
     public static void main(String[] args) {
-        String s = "leeltcode";
+        String s = "leetcode";
         System.out.println(firstUniqChar(s));
     }
     static int firstUniqChar(String s){
