@@ -6,7 +6,7 @@ import java.util.HashMap;
 public class RansomNote {
     public static void main(String[] args) {
         String ransomNote = "aa"; 
-        String magazine = "aaaaaaab";
+        String magazine = "aaab";
         System.out.println(canConstruct(ransomNote, magazine));
     }
     static boolean canConstruct(String ransomNote, String magazine){
@@ -30,7 +30,7 @@ public class RansomNote {
             }
         }
 
-        for(char x : mp1.keySet()){
+        for(char x : mp1.keySet()){   //if mp1 is subset of mp2
             if(!mp2.containsKey(x) || mp2.get(x)<mp1.get(x)){
                 return false;
             }
