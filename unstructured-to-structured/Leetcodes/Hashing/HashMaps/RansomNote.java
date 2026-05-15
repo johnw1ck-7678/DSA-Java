@@ -6,9 +6,10 @@ import java.util.HashMap;
 public class RansomNote {
     public static void main(String[] args) {
         String ransomNote = "aa"; 
-        String magazine = "aaab";
+        String magazine = "aaaab";
         System.out.println(canConstruct(ransomNote, magazine));
     }
+
     static boolean canConstruct(String ransomNote, String magazine){
 
         HashMap<Character,Integer> mp1=new HashMap<>(); //of ransomNote
