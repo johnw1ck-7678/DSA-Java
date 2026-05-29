@@ -11,7 +11,7 @@ public class CheckIfArrayIsRotated {
         int n=nums.length;
         int count=1;
 
-        for(int i=1;i<2*n;i++){ //double the array 
+        for(int i=1;i<2*n;i++){  //double the array 
 
             if(count==n){     //check sorted array of length nums
                 return true;
